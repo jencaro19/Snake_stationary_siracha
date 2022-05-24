@@ -14,4 +14,4 @@ Run the game with:
 
 (c) 2022 Jenny Carolina Franco Valiente
 
-Distributed under 
+Distributed under the conditions of the MIT License. See LICENSE for details.
