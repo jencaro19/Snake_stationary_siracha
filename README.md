@@ -1,3 +1,5 @@
+![Python application](https://github.com/jencaro19/Snake_stationary_siracha/workflows/Siracha_Spicy_Snake/badge.svg)
+
 # Snake Stationary Siracha
 A snake game written in python for Bootcamp week 11. 
 
