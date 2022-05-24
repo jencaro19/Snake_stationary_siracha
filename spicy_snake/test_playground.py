@@ -66,4 +66,4 @@ def test_add_food_random_mock():
     random.randint = mm
     p.add_random_food()
     assert p.food == (4,4)
-    assert mm.call_count == 2
+    assert mm.call_count == 2 
