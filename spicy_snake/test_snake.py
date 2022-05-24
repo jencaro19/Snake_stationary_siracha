@@ -21,7 +21,7 @@ look up: Uncle BOB "Clean Code Lectures"
 
 # feature can move in all 4 directions
 
-from spicy_snake import move, VALID_DIRECTIONS
+from spicy_snake.move_snake import move, VALID_DIRECTIONS
 import pytest
 import random
 
