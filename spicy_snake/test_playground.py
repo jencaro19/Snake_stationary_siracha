@@ -10,7 +10,6 @@ Tests for the Playground class:
 
 
 from spicy_snake.playground import Playground
-from sqlalchemy import true
 from unittest.mock import MagicMock
 import random
 
