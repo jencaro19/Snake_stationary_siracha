@@ -1,3 +1,6 @@
+"""
+Helper functions for the managing the terminal display.
+"""
 import curses
 
 def prepare_screen():

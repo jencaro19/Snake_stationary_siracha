@@ -1,4 +1,6 @@
-
+"""
+code to move directions of the snake
+"""
 VALID_DIRECTIONS = {'left', 'up', 'down', 'right'}
 
 def move(current_position, direction): 

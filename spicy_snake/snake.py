@@ -1,9 +1,7 @@
+import curses
 
-from multiprocessing.spawn import prepare
-from folium import LayerControl
 from spicy_snake.playground import Playground
 from spicy_snake.screen_helper import prepare_screen
-import curses
 
 # definition of constants UPPERCASE
 LEFT = (-1, 0)
@@ -20,7 +18,7 @@ SNAKE_SYMBOL = "0"
 WALL_SYMBOL = "#"
 
 
-def draw(player_pos, pg): # we are not creating any new variables or information so we do not need to call the function
+def draw(player_pos, pg, win, screen): # we are not creating any new variables or information so we do not need to call the function
     screen.clear() 
     # draw the player
     #TODO: we could seperate the draw and draw_player into seperate function
@@ -59,6 +57,5 @@ def game_loop(screen):
             draw(player_position, pg, win, screen) # call back the draw screen function 
 
 if __name__ == "__main__":
-
     curses.wrapper(game_loop)
     curses.endwin()
