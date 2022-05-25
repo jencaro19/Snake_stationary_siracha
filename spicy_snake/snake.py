@@ -15,6 +15,7 @@ KEY_COMMANDS = {97: LEFT, 100: RIGHT, 119: UP, 115: DOWN}
 
 # symbols
 SNAKE_SYMBOL = "0"
+#SNAKE_SYMBOL = "0<"[(x+y)%2] switches off from both symbols from the result of the modualar
 WALL_SYMBOL = "#"
 
 

@@ -1,2 +1,2 @@
 [pylint]
-    disable = invalid-name, missing-docstring, no-self-use
+    disable=invalid-name, missing-docstring, no-self-use, trailing-whitespace

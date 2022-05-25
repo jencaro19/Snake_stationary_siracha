@@ -30,6 +30,7 @@ def test_is_obstacle():
     assert p.is_obstacle((0, 6)) is True
     assert p.is_obstacle((0, 0)) is True
 
+#@pytest.mark.skip # works when we want to tell pytest to skip this def 
 def test_add_food():
     """- food should be inside the Playground size"""
     p = Playground(5,6)
