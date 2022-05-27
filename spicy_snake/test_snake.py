@@ -61,7 +61,6 @@ def test_move_fraction():
     with pytest.raises(Exception): # test will only pass if the exception is generated
         move(position, "down")
 
-#TODO: check for the boundaries of the playing field
 
 """
 here is the previous example of the code before reducing its size

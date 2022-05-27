@@ -31,7 +31,7 @@ def test_snake_grows():
 
 #@pytest.mark.skip
 def test_tail_becomes_longer():
-    """One extra move after growing, the tail becomes longer"""
+    """one move + eat once (.grow()) + one move, the tail becomes longer"""
     s = Snake(5, 6)
     s.forward()
     s.grow()

@@ -34,8 +34,7 @@ class Snake:
 
     def check_collision(self, playground):
         """Returns True if the head hits an obstacle or the tail"""
-        if playground.is_obstacle(self.head):
-            return True
-        else:
-            # check tail-collisions
-            return self.head in self.tail[:-1] # makes a copy of the tail 
+        return (
+            playground.is_obstacle(self.head) or  # wall collisions
+            self.head in self.tail[:-1]  # tail collisions
+        )
